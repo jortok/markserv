@@ -15,6 +15,7 @@ docker run -d --rm \
   --name markserv \
   -v <your_markdown_directory_file>:/usr/src/app/md \
   -p8080:8080 \
+  -p35729:35729 \
   jortok/markserv:latest
 ```
 
